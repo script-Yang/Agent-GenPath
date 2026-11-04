@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "device": "auto",
+  "command": "sample",
+  "output_dir": "auto",
+  "model": {
+    "backbone": {
+      "input_size": 256,
+      "patch_size": 8,
+      "in_channels": 3,
+      "dim": 768,
+      "depth": 12,
+      "num_heads": 12,
+      "num_classes": null
+    }
+  },
+  "checkpoint": "pretrained_checkpoints/dit.pth",
+  "samples": 16,
+  "batch_size": 8,
+  "steps": 50
+}

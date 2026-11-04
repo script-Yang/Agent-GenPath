@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "device": "auto",
+  "command": "infer",
+  "output_dir": "auto",
+  "model": {
+    "backbone": {
+      "input_size": 256,
+      "patch_size": 8,
+      "in_channels": 3,
+      "dim": 768,
+      "depth": 12,
+      "num_heads": 12,
+      "num_classes": null
+    },
+    "num_classes": 6,
+    "decoder_dim": 256,
+    "out_indices": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "head": "decoder_v1",
+    "decoder_options": {
+      "image_strides": [
+        32,
+        16,
+        8,
+        4
+      ]
+    }
+  },
+  "training": {
+    "rate": 0.3
+  },
+  "checkpoint": "outputs/segmentation/train_decoder_v1_t0.3/split1/best_mIoU.pth"
+}
