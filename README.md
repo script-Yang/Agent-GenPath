@@ -4,7 +4,7 @@
 
 ## Paper
 
-arXiv: **Coming soon**.
+arXiv: [**2611.06701**](https://arxiv.org/abs/2611.06701) | [PDF](https://arxiv.org/pdf/2611.06701).
 
 ## 🤗 Hugging Face: Model
 
@@ -85,10 +85,13 @@ CUDA_VISIBLE_DEVICES=0 python -m generation.sample --num-samples 8 --steps 50
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@unpublished{yang_agentgenpath,
-  title={Agent-Driven Generative Priors for Pathology Image Synthesis and Segmentation},
-  author={Yang, Sicheng and Tang, Rui and Zhou, Haipeng and Wang, Hongqiu and
-          Xing, Zhaohu and Ma, Jianda and Dai, Lie and Yang, Guang and Zhu, Lei},
-  note={Manuscript. arXiv release forthcoming}
+@misc{yang2026agentdrivengenerativepriorspathology,
+      title={Agent-Driven Generative Priors for Pathology Image Synthesis and Segmentation},
+      author={Sicheng Yang and Rui Tang and Haipeng Zhou and Hongqiu Wang and Zhaohu Xing and Jianda Ma and Lie Dai and Guang Yang and Lei Zhu},
+      year={2026},
+      eprint={2611.06701},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.06701},
 }
 ```
