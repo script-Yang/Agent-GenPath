@@ -77,8 +77,16 @@ CUDA_VISIBLE_DEVICES=0 python -m segmentation.evaluate
 ## Image Generation
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python -m generation.sample --num-samples 8 --steps 50
+CUDA_VISIBLE_DEVICES=0 python -m generation.sample \
+  --num-samples 8 --batch-size 8 --steps 50 --set seed=6657
 ```
+
+Eight synthetic pathology patches sampled with the pretrained DiT (seed 6657,
+50 Euler steps).
+
+![Generated pathology samples](examples/samples/preview.png)
+
+[Original images and sampling details](examples/samples).
 
 ## Citation
 

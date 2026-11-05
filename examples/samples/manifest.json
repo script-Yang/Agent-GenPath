@@ -1,0 +1,28 @@
+{
+  "source_commit": "390ad0a17bc86c394f853d3079ba56863adaa029",
+  "model": "yscript/agent-genpath",
+  "checkpoint_sha256": "0ebef09fca77d70783f035bc6f34b8b9e060b8ae522f43f51a5aabe3badb6f81",
+  "seed": 6657,
+  "samples": 8,
+  "batch_size": 8,
+  "steps": 50,
+  "sampler": "Euler",
+  "precision": "float32",
+  "image_size": [
+    256,
+    256
+  ],
+  "description": "Eight synthetic pathology images sampled from the pretrained DiT; all eight outputs from this batch are included.",
+  "preview_font": "Arial",
+  "files_sha256": {
+    "sample_00001.png": "4de1d50b3677316c04a3b7155afb42babb0407d2c442ac4171bb9169799d32db",
+    "sample_00002.png": "82516557c3e8d00cbe42ba7acbee5b5aed23eb65c417b74253f65187bc60660d",
+    "sample_00003.png": "3fa9261630bd389f974b96d449d91a2d8a04194aa197d4205709a522b345b97b",
+    "sample_00004.png": "3781121917575c8889d3671999ae1f261d04bb78dab2b092f101daa782a6efeb",
+    "sample_00005.png": "ea3719415abb5bfcb56cefdc4d02f6d3acb666db1614a420831314fde3a9b075",
+    "sample_00006.png": "ac8ba602346dbf8bc8aad6ea0cff5789958bbb7a95cc373625c61fc8f4777c7e",
+    "sample_00007.png": "68f323ed8a6b17a89a354020006128a0f222bdb88de8d57ebc11e3c77bed25dd",
+    "sample_00008.png": "a94acdad4dbecb43d6c7e3f9537369e62b7bbe79590286a81e3b7a402fe6d7b3",
+    "preview.png": "3e506390a486e3bfc4a924eed105c7a58ed36baa14509b214705bf2bb1c487b4"
+  }
+}
